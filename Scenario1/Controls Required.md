@@ -1,6 +1,3 @@
-## Controls Required.md
-
-```markdown
 # AI Security Controls Required for IntelliChat Pro
 
 ## Prompt Security Controls
