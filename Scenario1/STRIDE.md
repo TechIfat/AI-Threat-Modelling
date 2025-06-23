@@ -1,6 +1,3 @@
-## STRIDE.md
-
-```markdown
 # STRIDE Analysis for AI Systems - IntelliChat Pro
 
 ```mermaid      
