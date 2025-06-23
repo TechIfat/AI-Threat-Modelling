@@ -1,7 +1,3 @@
-
-## Data Flow Diagram.md
-
-```markdown
 ```mermaid
 erDiagram
     USER }|--|| IDENTITY_PROVIDER : "authenticates_with"

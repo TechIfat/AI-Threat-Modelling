@@ -1,6 +1,3 @@
-## HLD.md
-
-```markdown
 ```mermaid
 flowchart TD
     subgraph "User Interface Layer"
