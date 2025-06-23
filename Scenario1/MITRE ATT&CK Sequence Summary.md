@@ -1,6 +1,3 @@
-## MITRE ATT&CK Sequence Summary.md (Fixed)
-
-```markdown
 # AI-Enhanced MITRE ATT&CK Sequence Summary
 
 # AI Attack Description with MITRE ATLAS Integration
