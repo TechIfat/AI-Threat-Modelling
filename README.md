@@ -2,19 +2,19 @@
 # AI Threat Modelling Workshop Summary
 
 ## Introduction
-A 4 Hour AI threat modelling workshop took place to detail the runbook scenario of multiple AI attacks against the identity-aware chatbot system "IntelliChat Pro" built on Amazon Bedrock.
+A worked AI threat-modelling exercise against "IntelliChat Pro", a fictional identity-aware enterprise chatbot built on Amazon Bedrock with retrieval-augmented generation (RAG). It is structured as a 4-hour workshop runbook that a team could follow, and models how attackers could target the chatbot's prompts, model, knowledge base and identity layer.
 
-## Attendees
-AI Engineering team, ML Engineers, Product Managers, DevSecOps Team, AI Security Specialists, and Compliance Officers.
+## Roles Modelled
+The runbook is written for a cross-functional group: AI engineering, ML engineering, product, DevSecOps, AI security and compliance.
 
 ## Scope
-5 Scenarios were run covering: (1) Prompt Injection attack utilizing role escalation, (2) Model Poisoning attack against the fine-tuned model, (3) Identity Spoofing through AI-generated personas, (4) Data Exfiltration via crafted prompts, and (5) Supply Chain attack on training datasets.
+Five attack scenarios were scoped: (1) prompt injection using role escalation, (2) poisoning of the fine-tuned model, (3) identity spoofing through AI-generated personas, (4) data exfiltration via crafted prompts, and (5) a supply-chain attack on training datasets. Scenario 1 is written up in full in this repository; Scenarios 2–5 are scoped for future write-up.
 
 ## Methodology
-All scenarios were run against the AI cyber attack killchain, utilizing the MITRE ATT&CK for AI methods, OWASP LLM Top 10, NIST AI RMF, and STRIDE adapted for AI systems for control gap assessments. Culminating in identified AI-specific risks.
+Scenarios are mapped to the cyber kill chain, using MITRE ATLAS (adversarial threat techniques for AI systems), MITRE ATT&CK, the OWASP Top 10 for LLM Applications, NIST AI RMF, and STRIDE adapted for AI systems to find control gaps.
 
 ## Conclusion
-A total of 6 high risks and 4 medium risks were found during the AI threat modelling workshop.
+The inherent risk assessment identified 10 AI-specific risks: 2 critical, 5 high and 3 medium. Financial impact figures in the risk assessment are illustrative estimates, not measured values.
 
 ## Controls Required
 
